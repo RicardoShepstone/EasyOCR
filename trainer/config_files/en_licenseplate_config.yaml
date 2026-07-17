@@ -1,11 +1,11 @@
 number: '0123456789'
 symbol: "-"
-lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'  # No usar 'None', especificar directamente
 experiment_name: 'en_licenseplate_test'
 train_data: '/home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/train'
 valid_data: '/home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/val'
 manualSeed: 1111
-workers: 6 # 6
+workers: 1  # Cambiar a 1 para Jupyter Notebook (evita problemas de multiprocessing)
 batch_size: 8 #32
 num_iter: 300000
 valInterval: 20000
@@ -18,7 +18,7 @@ rho: 0.95
 eps: 0.00000001
 grad_clip: 5
 #Data processing
-select_data: 'train' # this is dataset folder in train_data
+select_data: '' # Buscar en toda la jerarquía de train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
 batch_max_length: 34 
@@ -40,7 +40,7 @@ input_channel: 1
 output_channel: 256
 hidden_size: 256
 decode: 'greedy'
-new_prediction: False
+new_prediction: True  # Reemplazar capa de predicción para los 38 caracteres
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
 # Fine-tuning parameters

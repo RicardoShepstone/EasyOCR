@@ -1,50 +1,15 @@
 --------------------------------------------------------------------------------
 dataset_root: /home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/train
-opt.select_data: ['train']
+opt.select_data: ['']
 opt.batch_ratio: ['1']
 --------------------------------------------------------------------------------
-dataset_root:    /home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/train	 dataset: train
+dataset_root:    /home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/train	 dataset: 
 sub-directory:	/.	 num samples: 33
-num total samples of train: 33 x 1.0 (total_data_usage_ratio) = 33
-num samples of train per batch: 8 x 1.0 (batch_ratio) = 8
+num total samples of : 33 x 1.0 (total_data_usage_ratio) = 33
+num samples of  per batch: 8 x 1.0 (batch_ratio) = 8
 --------------------------------------------------------------------------------
 Total_batch_size: 8 = 8
 --------------------------------------------------------------------------------
 dataset_root:    /home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/val	 dataset: /
 sub-directory:	/.	 num samples: 13
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-dataset_root: /home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/train
-opt.select_data: ['train']
-opt.batch_ratio: ['1']
---------------------------------------------------------------------------------
-dataset_root:    /home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/train	 dataset: train
-sub-directory:	/.	 num samples: 33
-num total samples of train: 33 x 1.0 (total_data_usage_ratio) = 33
-num samples of train per batch: 8 x 1.0 (batch_ratio) = 8
---------------------------------------------------------------------------------
-Total_batch_size: 8 = 8
---------------------------------------------------------------------------------
-dataset_root:    /home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/val	 dataset: /
-sub-directory:	/.	 num samples: 13
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-dataset_root: /home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/train
-opt.select_data: ['train']
-opt.batch_ratio: ['1']
---------------------------------------------------------------------------------
-dataset_root:    /home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/train	 dataset: train
-sub-directory:	/.	 num samples: 33
-num total samples of train: 33 x 1.0 (total_data_usage_ratio) = 33
-num samples of train per batch: 8 x 1.0 (batch_ratio) = 8
---------------------------------------------------------------------------------
-Total_batch_size: 8 = 8
---------------------------------------------------------------------------------
-dataset_root:    /home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/val	 dataset: /
-sub-directory:	/.	 num samples: 13
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-dataset_root: train/
-opt.select_data: ['/home/ricardo/Documents/Proactif/data/vehicle_plate_recognition/Number_plate_ocr_dataset/dataset/train']
-opt.batch_ratio: ['1']
 --------------------------------------------------------------------------------
