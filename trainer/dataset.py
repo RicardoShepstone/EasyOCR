@@ -10,7 +10,7 @@ from natsort import natsorted
 from PIL import Image
 import numpy as np
 from torch.utils.data import Dataset, ConcatDataset, Subset
-from torch._utils import _accumulate
+from itertools import accumulate as _accumulate
 import torchvision.transforms as transforms
 
 def contrast_grey(img):
@@ -135,6 +135,8 @@ def hierarchical_dataset(root, opt, select_data='/'):
                 dataset_log += f'{sub_dataset_log}\n'
                 dataset_list.append(dataset)
 
+    print(dataset_list)
+    
     concatenated_dataset = ConcatDataset(dataset_list)
 
     return concatenated_dataset, dataset_log
